@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizedApp
+
+  Created by Marian PAUL on 28/03/12.
+  Copyright (c) 2012 iPuP SARL. All rights reserved.
+*/
+
+"TextLabel" = "Bonjour !";
+"TextButton" = "Commencer";

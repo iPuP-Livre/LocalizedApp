@@ -109,7 +109,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">First Name</string>
+						<string key="IBUIText">Prénom</string>
 						<reference key="IBUITextColor" ref="806888074"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
@@ -128,7 +128,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Touch me !!!!</string>
+						<string key="IBUINormalTitle">Touche moi !</string>
 						<reference key="IBUIHighlightedTitleColor" ref="641920450"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>

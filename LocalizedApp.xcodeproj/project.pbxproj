@@ -15,6 +15,8 @@
 		E05C42F3152348D5003F5853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C42F2152348D5003F5853 /* AppDelegate.m */; };
 		E05C42F6152348D5003F5853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C42F5152348D5003F5853 /* ViewController.m */; };
 		E05C42F9152348D5003F5853 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05C42F7152348D5003F5853 /* ViewController.xib */; };
+		E05C43071523577B003F5853 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05C43091523577B003F5853 /* Localizable.strings */; };
+		E05C430D152448CB003F5853 /* ViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05C430B152448CB003F5853 /* ViewController.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,21 @@
 		E05C42E2152348D5003F5853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E05C42E4152348D5003F5853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05C42E6152348D5003F5853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E05C42EA152348D5003F5853 /* LocalizedApp-Info.plist */ = {isa = PBXFileReference; path = "LocalizedApp-Info.plist"; sourceTree = "<group>"; };
+		E05C42EA152348D5003F5853 /* LocalizedApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizedApp-Info.plist"; sourceTree = "<group>"; };
 		E05C42EC152348D5003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05C42EE152348D5003F5853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05C42F0152348D5003F5853 /* LocalizedApp-Prefix.pch */ = {isa = PBXFileReference; path = "LocalizedApp-Prefix.pch"; sourceTree = "<group>"; };
-		E05C42F1152348D5003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05C42F0152348D5003F5853 /* LocalizedApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizedApp-Prefix.pch"; sourceTree = "<group>"; };
+		E05C42F1152348D5003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05C42F2152348D5003F5853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E05C42F4152348D5003F5853 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E05C42F4152348D5003F5853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E05C42F5152348D5003F5853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E05C42F8152348D5003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E05C43081523577B003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E05C430A152357B2003F5853 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E05C430C152448CB003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
+		E05C430E152448D4003F5853 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ViewController.strings; sourceTree = "<group>"; };
+		E05C430F15244B24003F5853 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E05C431015244C35003F5853 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,8 @@
 				E05C42F4152348D5003F5853 /* ViewController.h */,
 				E05C42F5152348D5003F5853 /* ViewController.m */,
 				E05C42F7152348D5003F5853 /* ViewController.xib */,
+				E05C430B152448CB003F5853 /* ViewController.strings */,
+				E05C43091523577B003F5853 /* Localizable.strings */,
 				E05C42E9152348D5003F5853 /* Supporting Files */,
 			);
 			path = LocalizedApp;
@@ -125,6 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "iPuP SARL";
 			};
 			buildConfigurationList = E05C42D8152348D5003F5853 /* Build configuration list for PBXProject "LocalizedApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -132,6 +143,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = E05C42D3152348D5003F5853;
 			productRefGroup = E05C42DF152348D5003F5853 /* Products */;
@@ -150,6 +162,8 @@
 			files = (
 				E05C42ED152348D5003F5853 /* InfoPlist.strings in Resources */,
 				E05C42F9152348D5003F5853 /* ViewController.xib in Resources */,
+				E05C43071523577B003F5853 /* Localizable.strings in Resources */,
+				E05C430D152448CB003F5853 /* ViewController.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +187,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E05C42EC152348D5003F5853 /* en */,
+				E05C431015244C35003F5853 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -181,8 +196,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				E05C42F8152348D5003F5853 /* en */,
+				E05C430F15244B24003F5853 /* fr */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E05C43091523577B003F5853 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05C43081523577B003F5853 /* en */,
+				E05C430A152357B2003F5853 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E05C430B152448CB003F5853 /* ViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05C430C152448CB003F5853 /* en */,
+				E05C430E152448D4003F5853 /* fr */,
+			);
+			name = ViewController.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

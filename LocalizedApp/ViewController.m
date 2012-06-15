@@ -3,7 +3,7 @@
 //  LocalizedApp
 //
 //  Created by Marian PAUL on 28/03/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 iPuP SARL. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -17,7 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"La langue actuelle est : %@", [[NSLocale currentLocale] localeIdentifier]);
+    
+    _label.text = NSLocalizedString(@"TextLabel", @"Un commentaire");
+    [_button setTitle:NSLocalizedString(@"TextButton", @"") forState:UIControlStateNormal];
 }
 
 - (void)viewDidUnload
